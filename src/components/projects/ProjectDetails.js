@@ -21,7 +21,7 @@ const ProjectDetails = (props) => {
                     <div>2nd September , 2 a.m</div>
                 </div>
             </div>
-            </div>
+        </div>
         )
     } else {
     return (
