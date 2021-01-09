@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// Router and swith for routing
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Dashboard from './components/dashboard/Dashboard';
@@ -10,6 +11,7 @@ import CreateProject from './components/projects/CreateProject';
 class App extends Component {
   render() {
     return (
+      // BrowserRouter needs to surround the components
       <BrowserRouter>
         <div className="App">
           <Navbar />
